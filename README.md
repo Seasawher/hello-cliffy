@@ -1,3 +1,3 @@
 # README
 
-Docker + Dev Container を用いた Deno の開発環境テンプレートです．
+hello cliffy と出力するだけの自明なツールです
