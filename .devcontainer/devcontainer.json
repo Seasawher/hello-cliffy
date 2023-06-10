@@ -1,0 +1,26 @@
+{
+    "name": "hello-deno",
+    "dockerComposeFile": "./docker-compose.yml",
+    "service": "deno_devcontainer",
+    "workspaceFolder": "/workspace",
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "editor.formatOnSave": true,
+                "editor.insertSpaces": true,
+                "files.eol": "\n",
+                "files.trimFinalNewlines": true,
+                "files.trimTrailingWhitespace": true
+            },
+            "extensions": [
+                "mhutchie.git-graph",
+                "eamodio.gitlens",
+                "ms-azuretools.vscode-docker",
+                "yzhang.markdown-all-in-one",
+                "denoland.vscode-deno",
+                "laurencebahiirwa.deno-std-lib-snippets",
+                "EditorConfig.EditorConfig"
+            ]
+        }
+    }
+}
